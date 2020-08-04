@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <link async rel="stylesheet" href="app.css">
+    </head>
+    <body data-h2-core data-h2-props>
+        <div data-h2-padding="mqb(all, 3)">
+            <div data-h2-container="mqb(large, center)">
+                <h1 
+                    data-h2-heading="mqb(h3) mqs(h4) mql(h5)" 
+                    data-h2-padding="mqb(bottom, 1)" 
+                    data-h2-margin="mqb(bottom, 1)">This is an example of a heading.</h1>
+                <div 
+                    data-h2-alert="c1, static" 
+                    data-h2-margin="mqb(bottom, 1)"
+                    data-h2-padding="mqb(all, 1)"
+                    data-h2-radius="mqb(round)"
+                    role="alert">
+                    <button data-h2-alert-dismissal-trigger>
+                        <span>x</span>
+                    </button>
+                    <div data-h2-alert-content>
+                        <p 
+                            data-h2-alert-title
+                            data-h2-font-weight="mqb(bold)"><span>(!)</span>Alert Title</p>
+                        <p>Alert Content</p>
+                    </div>
+                </div>
+                <!-- This accordion component is being overridden by an older version. Remove the "-X-X-X" from the component to return it to its current version's styles. -->
+                <div 
+                    data-h2-accordion-0-0-15="left" 
+                    data-h2-border="mqb(c2, left, solid, thick)">
+                    <button 
+                        aria-expanded="false" 
+                        data-h2-accordion-trigger
+                        data-h2-padding="mqb(tb, .5)" 
+                        tabindex="0" 
+                        type="button">
+                        <span data-h2-accordion-trigger-label>Click to view...</span>
+                        <span 
+                            aria-hidden="true" 
+                            data-h2-accordion-add-icon>+</span>
+                        <span 
+                            aria-hidden="true" 
+                            data-h2-accordion-remove-icon>-</span>
+                        <div data-h2-accordion-trigger-content>
+                            <p>Accordion Title</p>
+                            <p>Accordion Subtitle</p>
+                        </div>
+                    </button>
+                    <div 
+                        aria-hidden="true" 
+                        data-h2-accordion-content>
+                        <p>Accordion Content</p>
+                    </div>
+                </div>
+                <!-- This chunk of property code is being overridden by an older version. Remove the "-X-X-X" from the props attribute to reset the props to their current version's styles. -->
+                <div data-h2-props-0-0-15>
+                    <div data-h2-container="mqb(small, center)">
+                        <div data-h2-margin="mqb(top, 1)">
+                            <div data-h2-grid="mqb(top, auto, .5)">
+                                <div data-h2-grid-item="mqb(1of1) mqm(1of3)">
+                                    <div
+                                        data-h2-bg-color="mqb(c1, 1)"
+                                        data-h2-padding="mqb(all, 2)"
+                                        data-h2-radius="mqb(round)"></div>
+                                </div>
+                                <div data-h2-grid-item="mqb(1of1) mqm(1of3)">
+                                    <div
+                                        data-h2-bg-color="mqb(c2, .8)"
+                                        data-h2-padding="mqb(all, 2)"
+                                        data-h2-radius="mqb(round)"></div>
+                                </div>
+                                <div data-h2-grid-item="mqb(1of1) mqm(1of3)">
+                                    <div
+                                        data-h2-bg-color="mqb(c3, .6)"
+                                        data-h2-padding="mqb(all, 2)"
+                                        data-h2-radius="mqb(round)"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="cash.min.js"></script>
+        <script src="h2-system.min.js"></script>
+        <script src="h2-component-accordion-0-0-15.min.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>

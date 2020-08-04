@@ -1,0 +1,40 @@
+{
+  "name": "@hydrogen-design-system/test",
+  "version": "0.0.1",
+  "description": "Hydrogen's full design system and component library.",
+  "main": "npm.js",
+  "scripts": {
+    "test": "npx gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hydrogen-design-system/test.git"
+  },
+  "author": "Josh Beveridge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hydrogen-design-system/test/issues"
+  },
+  "homepage": "https://github.com/hydrogen-design-system/test#readme",
+  "dependencies": {
+    "@hydrogen-design-system/system": "0.0.8",
+    "@hydrogen-design-system/properties": "0.0.15",
+    "@hydrogen-design-system/component-accordion": "0.0.15"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.3",
+    "browser-sync": "^2.26.7",
+    "browserslist": "^4.8.2",
+    "cssnano": "^4.1.10",
+    "del": "^3.0.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.1",
+    "sass": "^1.26.8"
+  },
+  "browserslist": [
+    "last 1 version and not dead"
+  ]
+}
