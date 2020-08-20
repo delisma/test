@@ -4,4 +4,8 @@
 );
 @use "../node_modules/@hydrogen-design-system/system/dist/import/h2-system.scss";
 @use "../node_modules/@hydrogen-design-system/properties/dist/version/styles/h2-properties-0-0-15.scss";
+@use "../node_modules/@hydrogen-design-system/component-accordion/dist/version/styles/core/defaults" as acc with (
+    $font-sans: "consolas",
+    $theme-color-1: green
+);
 @use "../node_modules/@hydrogen-design-system/component-accordion/dist/version/styles/h2-component-accordion-0-0-15.scss";

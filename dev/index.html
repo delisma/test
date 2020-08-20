@@ -25,9 +25,37 @@
                         <p>Alert Content</p>
                     </div>
                 </div>
+                <div
+                    data-h2-margin="mqb(tb, 2)" 
+                    data-h2-accordion="left"
+                    data-h2-border="mqb(c2, left, solid, thick)">
+                    <button 
+                        aria-expanded="false" 
+                        data-h2-accordion-trigger 
+                        tabindex="0" 
+                        type="button">
+                        <span data-h2-accordion-trigger-label>Click to view...</span>
+                        <span 
+                            aria-hidden="true" 
+                            data-h2-accordion-add-icon>+</span>
+                        <span 
+                            aria-hidden="true" 
+                            data-h2-accordion-remove-icon>-</span>
+                        <div data-h2-accordion-trigger-content>
+                            <p>Accordion Title</p>
+                            <p>Accordion Subtitle</p>
+                        </div>
+                    </button>
+                    <div 
+                        aria-hidden="true" 
+                        data-h2-accordion-content>
+                        <p data-h2-focus>Accordion Content</p>
+                    </div>
+                </div>
                 <!-- This accordion component is being overridden by an older version. Remove the "-X-X-X" from the component to return it to its current version's styles. -->
                 <div 
                     data-h2-accordion-0-0-15="left" 
+                    data-h2-margin="mqb(tb, 2)"
                     data-h2-border="mqb(c2, left, solid, thick)">
                     <button 
                         aria-expanded="false" 
@@ -80,6 +108,60 @@
                         </div>
                     </div>
                 </div>
+                <hr data-h2-hr="gray, thin" data-h2-margin="mqb(tb, 2)">
+                <form data-h2-form>
+                    <fieldset data-h2-form-item="checkbox, group">
+                        <div data-h2-input-title-wrapper>
+                            <div data-h2-input-label-wrapper>
+                                <legend data-h2-input-label>Checkbox Group Label</legend>
+                            </div>
+                            <div data-h2-input-data-wrapper>
+                                <span data-h2-input-required>(Required)</span><span data-h2-input-optional>(Optional)</span><span data-h2-input-data>Supplementary Info</span>
+                            </div>
+                        </div>
+                        <div data-h2-input-wrapper>
+                            <label
+                                data-h2-input-checkbox 
+                                for="checkboxOption01">
+                                <input
+                                    data-h2-input
+                                    id="checkboxOption01"
+                                    type="checkbox"
+                                    required/>
+                                <span>Option 01</span>
+                            </label>
+                            <label
+                                data-h2-input-checkbox 
+                                for="checkboxOption02">
+                                <input
+                                    data-h2-input
+                                    id="checkboxOption02"
+                                    type="checkbox"
+                                    required/>
+                                <span>Option 02</span>
+                            </label>
+                        </div>
+                        <div data-h2-input-context-wrapper>
+                            <div data-h2-input-error-wrapper>
+                                <span data-h2-input-error>Custom error text.</span>
+                            </div>
+                            <div data-h2-input-info-trigger-wrapper>
+                                <button
+                                    aria-expanded="false"
+                                    data-h2-input-info-trigger
+                                    type="button">
+                                    <span data-h2-input-info-trigger-more-label>More</span><span data-h2-input-info-trigger-less-label>Less</span> Info
+                                    <span data-h2-input-info-trigger-label>Click to view...</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div 
+                            aria-hidden="true"
+                            data-h2-input-info-wrapper>
+                            <p data-h2-focus>Explain why this field is collected.</p>
+                        </div>
+                    </fieldset>
+                </form>
             </div>
         </div>
         <script src="cash.min.js"></script>
