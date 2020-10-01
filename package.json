@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/hydrogen-design-system/test#readme",
   "dependencies": {
-    "@hydrogen-design-system/system": "0.0.16",
+    "@hydrogen-design-system/system": "0.0.17",
     "@hydrogen-design-system/properties": "0.0.15",
     "@hydrogen-design-system/component-accordion": "0.0.15"
   },

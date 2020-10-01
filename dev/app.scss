@@ -1,6 +1,11 @@
 @use "../node_modules/@hydrogen-design-system/system/dist/import/core/defaults" with (
     $font-sans: "consolas",
-    $theme-color-1: green
+    $theme-color-1: green,
+    $menu-bg-color: rgba(255, 0, 0, .2),
+    $submenu-bg-color: purple,
+    $menu-divider-color: blue,
+    $menu-font-color: black,
+    $menu-icon-color: black
 );
 @use "../node_modules/@hydrogen-design-system/system/dist/import/h2-system.scss";
 @use "../node_modules/@hydrogen-design-system/properties/dist/version/styles/h2-properties-0-0-15.scss";
